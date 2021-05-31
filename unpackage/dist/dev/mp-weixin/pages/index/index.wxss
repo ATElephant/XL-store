@@ -1,0 +1,13 @@
+
+.text-area.data-v-57280228 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.title.data-v-57280228 {
+	font-size: 36rpx;
+}
+

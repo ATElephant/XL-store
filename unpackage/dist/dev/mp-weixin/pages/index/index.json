@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "开始预约",
+  "navigationBarBackgroundColor": "#31E749",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "uni-number-box": "/components/uni-ui/uni-number-box/uni-number-box",
+    "h-mmessages": "/components/HM-messages/HM-messages"
+  }
+}

@@ -1,0 +1,141 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 订单状态 */
+.inlinlineItem.data-v-785d510c {
+	display: inline-block;
+}
+/* 订单详情 */
+.appointment-content.data-v-785d510c {
+	width: 90%;
+	height: 100%;
+	margin: auto auto;
+}
+.appointment-number.data-v-785d510c {
+	width: 25%;
+	margin: 20rpx auto;
+	font-size: small;
+	font-weight: 400;
+}
+.appointment-name.data-v-785d510c {
+	font-weight: 400;
+	font-size: small;
+}
+.appointment-text.data-v-785d510c {
+	text-align: center;
+	font-size: medium;
+}
+.appointment-border.data-v-785d510c {
+	border: 5rpx solid #B2B2B2;
+	width: 650rpx;
+	height: 100%;
+}
+.appointment-green.data-v-785d510c {
+	width: 20rpx;
+	height: 20rpx;
+	border-radius: 50%;
+	background-color: #09BB07;
+}
+.appointment-red.data-v-785d510c {
+	width: 20rpx;
+	height: 20rpx;
+	border-radius: 50%;
+	background-color: red;
+}
+

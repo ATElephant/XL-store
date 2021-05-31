@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/orderConfirm/orderConfirm",
+    "pages/userAddress/userAddress",
+    "pages/payMethod/payMethod",
+    "pages/payResult/payResult",
+    "pages/order/order",
+    "pages/orderDetail/orderDetail",
+    "pages/setting/setting",
+    "pages/about/aboout",
+    "pages/userinfo/userinfo",
+    "pages/user-path-edit/user-path-edit"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTitleText": "香兰",
+    "navigationBarBackgroundColor": "#31E749",
+    "navigationBarTextStyle": "white",
+    "style": {}
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#FD6801",
+    "borderStyle": "black",
+    "backgroundColor": "#FFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/indexSelected.png",
+        "text": "开始预约"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "iconPath": "./static/tabbar/class.png",
+        "selectedIconPath": "static/tabbar/classSelected.png",
+        "text": "我的预约"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "iconPath": "static/tabbar/my.png",
+        "selectedIconPath": "static/tabbar/mySelected.png",
+        "text": "设置"
+      }
+    ]
+  },
+  "usingComponents": {
+    "load-list": "/components/loading/loading",
+    "home-load-list": "/components/load-line/load-line"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "order-list": "/components/orderList",
+    "divider": "/components/divider"
+  }
+}

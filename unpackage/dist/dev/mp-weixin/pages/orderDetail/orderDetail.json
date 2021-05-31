@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "divider": "/components/divider",
+    "price": "/components/price",
+    "card": "/components/car/card",
+    "order-list-item": "/components/order/order-list-item",
+    "uni-list-item": "/components/uni-ui/uni-list-item/uni-list-item"
+  }
+}

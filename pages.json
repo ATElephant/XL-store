@@ -1,0 +1,140 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "开始预约",
+				"navigationBarBackgroundColor":"#31E749",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/orderConfirm/orderConfirm",
+			"style" : {
+				"navigationBarTitleText":"订单配送至",
+				"navigationBarBackgroundColor":"#31E749",
+				"navigationBarTextStyle":"white"
+			}
+		},
+		{
+			"path": "pages/userAddress/userAddress",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"app-plus": {
+					"scrollIndicator": "none",
+					"bounce": "none"
+				}
+			}
+		}, 
+		{
+			"path": "pages/payMethod/payMethod",
+			"style": {
+				"navigationBarTitleText": "支付方式"
+			}
+		},
+		{
+		    "path" : "pages/payResult/payResult",
+		    "style" : {
+				"navigationBarTitleText":"支付成功"
+			}
+		},
+		// 开始预约  END
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "我的预约"
+			}
+		},
+		{
+		    "path" : "pages/orderDetail/orderDetail",
+		    "style" : {
+					"app-plus":{
+						"titleNView":{
+							"type":"transparent"
+						}
+					}
+				}
+		},
+		// 我的预约 END
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/about/aboout",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		},
+		{
+			"path": "pages/user-path-edit/user-path-edit",
+			"style": {
+				"navigationBarTitleText": "增加收货地址",
+				"app-plus": {
+					"scrollIndicator": "none",
+					"bounce": "none",
+					"titleNView": {
+						"buttons": [{
+							"float": "right",
+							"color": "#999999",
+							"colorPressed": "#BBBBBB",
+							"text": "删除",
+							"fontSize": "16px"
+						}]
+					}
+				}
+			}
+		}
+		
+		
+	],
+	"globalStyle": {
+		"navigationBarTitleText": "香兰",
+		"navigationBarBackgroundColor": "#31E749",
+		"navigationBarTextStyle":"white",
+		"style":{
+			
+		}
+	},
+	
+	
+	
+	// 底部导航
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#FD6801",
+		"borderStyle": "black",
+		"backgroundColor": "#FFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/index.png",
+				"selectedIconPath": "static/tabbar/indexSelected.png",
+				"text": "开始预约"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"iconPath": "./static/tabbar/class.png",
+				"selectedIconPath": "static/tabbar/classSelected.png",
+				"text": "我的预约"
+			},
+			{
+				"pagePath": "pages/setting/setting",
+				"iconPath": "static/tabbar/my.png",
+				"selectedIconPath": "static/tabbar/mySelected.png",
+				"text": "设置"
+			}
+		]
+	}
+}
